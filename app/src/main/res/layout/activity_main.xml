@@ -21,4 +21,11 @@
             android:text="音视频录制"
             app:layout_constraintTop_toBottomOf="@+id/start_audio_record"/>
 
+    <Button
+            android:id="@+id/start_openGl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OpenGL 学习"
+            app:layout_constraintTop_toBottomOf="@+id/start__mediaRecorder"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

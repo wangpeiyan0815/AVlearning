@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.wpy.avlearning.audio.AudioRecordActivity
 import com.wpy.avlearning.media.MediaRecorderActivity
+import com.wpy.avlearning.opengl.OpenGlPandectActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         start_audio_record.setOnClickListener(onClickListener)
         start__mediaRecorder.setOnClickListener(onClickListener)
+        start_openGl.setOnClickListener(onClickListener)
     }
 
     private val onClickListener:View.OnClickListener = View.OnClickListener {
@@ -24,6 +26,9 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.start__mediaRecorder ->{
                 startIntent(MediaRecorderActivity::class.java)
+            }
+            R.id.start_openGl ->{
+                startIntent(OpenGlPandectActivity::class.java)
             }
         }
     }

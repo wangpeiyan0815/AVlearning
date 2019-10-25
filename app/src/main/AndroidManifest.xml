@@ -30,6 +30,14 @@
         <activity android:name=".media.MediaRecorderActivity"/>
 
         <activity android:name=".media.MediaPlayActivity"/>
+
+        <activity android:name=".opengl.OpenGlPandectActivity"/>
+
+        <activity android:name=".opengl.render.FGLViewActivity"/>
+
+        <activity android:name=".opengl.render.FGLExerciseActivity"/>
+
+        <activity android:name=".opengl.render.ChooseActivity"/>
     </application>
 
 </manifest>
